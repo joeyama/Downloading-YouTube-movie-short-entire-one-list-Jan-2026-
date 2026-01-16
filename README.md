@@ -5,4 +5,7 @@ How to donwload Youtube's movies/shorts or entire movies of single list(Jan/2026
 Several software are available. Good one is [Pazu StreamGet All-In-One](https://www.pazu-video.com/streamget-all-in-one-for-windows.html).
 Free version allows you to download movies from YouTube. 
 
+> [!NOTE]
+> It is stable however slow. Batch download is possible for lists but it took forver to download each movies.
+
 ![screenshot of Pazu StreamGet.](/assets/Art963a.png)
