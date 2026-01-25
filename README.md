@@ -25,8 +25,10 @@ open PowerShell or Terminal then execute below line(s).
 winget install yt-dlp.yt-dlp.nightly
 ```
 > [!TIP]
-> normal release version is also available however since YouTube and other SNS sites change rapidly, nightly version is better for downloading usage.
+> normal release version is also available however, since YouTube and other SNS sites change rapidly, nightly version is better for downloading.
 
+
+### How to use
 So many options but this is my usage.
 ```
 yt-dlp.exe --cookies cookies.firefox-private.txt --ignore-errors --continue --no-write-playlist-metafiles --playlist-end 300 --download-archive downloaded.txt -N 4 --sleep-requests 1 --sleep-interval 1 --max-sleep-interval 3 --retries 10 --fragment-retries 10 --no-mtime --merge-output-format mp4 --exec "echo %(webpage_url)s %(title)s >> history.txt" "https://www.youtube.com/watch?v=jyhYW0qZ6oA&list=PL3cu45aM3C2DJVGfCjSBB1yD9YkC7q27-"
@@ -34,4 +36,8 @@ yt-dlp.exe --cookies cookies.firefox-private.txt --ignore-errors --continue --no
 > [!NOTE]
 > This example uses cookie data exported from Firefox. This is optional however, if you keep downloading then YouTube will reject to access. Also some movies are not available without sign-in situation. With --cookies option, you can create sign-in situation without Web Browser.
 
+## Method C. GUI for yt-dlp
+There are several GUI solutions below is one of them. It handles movie and list well.
+
+https://github.com/vanloctech/youwee
 
