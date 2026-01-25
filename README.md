@@ -16,3 +16,4 @@ Free version allows you to download movies from YouTube.
 > Pazu itself is good or great for downloading from various streaming services such as Netflix, Amazon Prime, Apple Music, Spotify.
 
 ## Method B. Using yt-dlp.exe (Preparations required however vastly fast)
+This will be the ultimate solution. 
