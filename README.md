@@ -29,7 +29,7 @@ winget install yt-dlp.yt-dlp.nightly
 
 
 ### How to use
-So many options but this is my usage.
+yt-dlp comes with so many options. This is my usage. Extremely caucious to avoid detection so random wait everywhere. This combo will survive very long videolist and will download dozens or hundreds.
 ```
 yt-dlp.exe --cookies cookies.firefox-private.txt --ignore-errors --continue --no-write-playlist-metafiles --playlist-end 300 --download-archive downloaded.txt -N 4 --sleep-requests 1 --sleep-interval 1 --max-sleep-interval 3 --retries 10 --fragment-retries 10 --no-mtime --merge-output-format mp4 --exec "echo %(webpage_url)s %(title)s >> history.txt" "https://www.youtube.com/watch?v=jyhYW0qZ6oA&list=PL3cu45aM3C2DJVGfCjSBB1yD9YkC7q27-"
 ```
@@ -39,5 +39,19 @@ yt-dlp.exe --cookies cookies.firefox-private.txt --ignore-errors --continue --no
 ## Method C. GUI for yt-dlp
 There are several GUI solutions below is one of them. It handles movie and list well.
 
-https://github.com/vanloctech/youwee
+[github.com/vanloctech/youwee](https://github.com/vanloctech/youwee)
+
+> [!NOTE]
+> You can paste url for single movie or videolist then this will download by yt-dlp speed.
+
+![screenshot](/assets/Art977.png)
+
+> [!TIP]
+> It has an option to use browser's cookie information which is vastly robust than anonymous access and can evade various ristrictions. 
+
+![screenshot](/assets/Art976a.png)
+
+
+
+
 
